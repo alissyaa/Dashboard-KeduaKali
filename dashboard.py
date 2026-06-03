@@ -477,7 +477,7 @@ category_comparison, global_vs_indo, indo_loss = compute_global_tables(gfw)
 st.markdown("""
 <div class="brand-header">
     <div class="brand-title">KeduaKali Dashboard</div>
-    <div class="brand-sub">Platform Cerdas Penyelamat Makanan Leftover & Barang Imperfect · Sustainable & Responsible Consumption</div>
+    <div class="brand-sub">Platform Cerdas Penyelamat Makanan Leftover · Sustainable & Responsible Consumption</div>
 </div>
 """, unsafe_allow_html=True)
 
@@ -1139,7 +1139,7 @@ with col_add3:
 st.markdown("<br><br>", unsafe_allow_html=True)
 st.markdown("""
 <div style="text-align:center; padding:20px; border-top:1px solid #D5E8F3; font-size:0.75rem; color:#AEB6BF;">
-    ♻️ <strong style="color:#5D6D7E;">KeduaKali</strong> · Platform Cerdas Penyelamat Makanan Leftover & Barang Imperfect<br>
+    ♻️ <strong style="color:#5D6D7E;">KeduaKali</strong> · Platform Cerdas Penyelamat Makanan Leftover<br>
     <span style="margin-top:4px; display:block;">Capstone CC26-PSU226 · Sustainable & Responsible Consumption · 2026</span>
 </div>
 """, unsafe_allow_html=True)
