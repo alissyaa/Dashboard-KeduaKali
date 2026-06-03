@@ -401,9 +401,11 @@ def compute_global_tables(gfw_df):
 # SIDEBAR — GLOBAL FILTERS (single source of truth for ALL tabs)
 # ═══════════════════════════════════════════════════════════════════
 with st.sidebar:
+    c1, c2, c3 = st.columns([1,3,1])
+    with c2:
+        st.image("logoKeduaKali.png", width=120)
     st.markdown("""
-    <div style="text-align:center; padding: 20px 0 28px 0;">
-        <div style="font-size:2.5rem;">♻️</div>
+    <div style="text-align:center; padding: 10px 0 28px 0;">
         <div style="font-family:'Sora',sans-serif; font-size:1.3rem; font-weight:800; color:#1A5276;">
             KeduaKali
         </div>
@@ -474,7 +476,7 @@ category_comparison, global_vs_indo, indo_loss = compute_global_tables(gfw)
 # ─────────────────────────────────────────────
 st.markdown("""
 <div class="brand-header">
-    <div class="brand-title">♻️ KeduaKali Dashboard</div>
+    <div class="brand-title">KeduaKali Dashboard</div>
     <div class="brand-sub">Platform Cerdas Penyelamat Makanan Leftover & Barang Imperfect · Sustainable & Responsible Consumption</div>
 </div>
 """, unsafe_allow_html=True)
