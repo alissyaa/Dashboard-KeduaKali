@@ -36,6 +36,7 @@
 │   └── Laporan Teknis KeduaKali.pdf  # Laporan teknis lengkap
 └── README.md
 └── logoKeduaKali.png   # Logo keduaKali
+└── requirements.txt  # Library yang harus diinstall
 ```
 
 ---
