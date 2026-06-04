@@ -275,9 +275,9 @@ WEATHER_MAP   = {0: 'Cloudy', 1: 'Rainy', 2: 'Sunny'}
 # ─────────────────────────────────────────────
 @st.cache_data(show_spinner=False)
 def load_data():
-    RESTAURANT_CSV     = 'restaurant_sales_cleaned.csv'
-    FOOD_WASTAGE_CSV   = 'food_wastage_cleaned.csv'
-    GLOBAL_WASTAGE_CSV = 'global_food_wastage_dataset.csv'
+    RESTAURANT_CSV     = 'data/restaurant_sales_cleaned.csv'
+    FOOD_WASTAGE_CSV   = 'data/food_wastage_cleaned.csv'
+    GLOBAL_WASTAGE_CSV = 'data/global_food_wastage_dataset.csv'
 
     rest = pd.read_csv(RESTAURANT_CSV)
     fw   = pd.read_csv(FOOD_WASTAGE_CSV)
